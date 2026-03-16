@@ -1,0 +1,75 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;     
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #93B7BE;
+}
+
+/* Container centralizado */
+.container_aluno{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 80vh;
+}
+
+/* Caixa principal */
+.caixa_aluno{
+    height: 63vh;
+    width: 28vw;
+    background: #DBD8AE;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.inputt{
+    height: 35px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.botao{
+    height: 4.6vh;
+    width: 16vw;
+    border-radius: 20px;
+    border: none;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.botao:hover{
+    transform: scale(1.05);
+    color: aquamarine;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+h2{
+    margin-top: 15px;
+}

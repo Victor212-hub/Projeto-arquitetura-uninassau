@@ -1,0 +1,89 @@
+
+/* Documento CSS, parte com * representa todos os elementos da página de forma fixa */
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;     
+}
+a{
+    text-decoration: none;
+}
+/* Estilização da página de login, parte com . representa a classe do elemento */
+body{
+    background-color: #93B7BE;
+}
+.container_login{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 80vh;
+    align-items: center;        
+}
+
+.login_p {
+    height: 38vh;
+    width: 26vw;
+    background: #DBD8AE;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction:column; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.login_a{
+    height: 38vh;
+    width: 26vw;
+    background:#94C9A9;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+span{
+    color: #000000;
+}
+
+.inputt{
+    height: 35px;
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.botao{
+    height: 4.6vh;
+    width: 15vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+h2{
+    margin-top: 8px;
+}
+h1{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+.botao:hover{
+    transform: scale(1.05);
+    color: aquamarine;
+}
