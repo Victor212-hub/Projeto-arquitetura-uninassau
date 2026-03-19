@@ -23,6 +23,8 @@ Aluno
 
 Fazer login com matrícula
 
+botão para menu lateral
+
 Visualizar disciplinas
 
 Consultar boletim
@@ -53,4 +55,4 @@ HTML5
 
 CSS3
 
-Google Fonts
+
